@@ -23,4 +23,7 @@
  S3 event creation
  
  The bucket where the files will be dropped, needs to have a event trigger for all file creation events. Configure the lambda trigger
- manually. 
+ manually.
+ 
+ 
+ **PS**: _`Documentation explaing the ppc is available in "docs" folder_ `
