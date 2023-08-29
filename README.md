@@ -1,5 +1,5 @@
-** Streaming data from Kafka to Databricks using Confluent Kafka, Databricks workspace and live tables**
- 
+_**Streaming data from Kafka to Databricks using Confluent Kafka, Databricks workspace and live tables**
+ _
  This application reads data from S3 bucket s3://activepipe-poc and copies the content to kafka topic "ap_property_listing" in 
  confluent cloud. This topics needs to be created with 10 partitions or X number of partitions. 
  This is part of the pipeline  where the final place will be Databricks's DeltaLake
